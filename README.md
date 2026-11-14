@@ -2,51 +2,32 @@
 
 ✨**Convert**🖼️🐴🥱<img src=".github/workflows/example/stunning-hanoverian-horse-with-glossy-coat-under-sunlight.png" alt="Source PNG" width="240" height="240"> ➡️➡️✨ **to**➡️➡️ 🪄<img src=".github/workflows/example/stunning-hanoverian-horse-with-glossy-coat-under-sunlight.apng" alt="Converted sparkly PNG" width="240" height="240">💫👀💖✨🤯
 
-https://desertmilk.github.io/sparkle_bitch/
+Try it here: https://desertmilk.github.io/sparkle_bitch/
 
 A personal **Y2K glitter engine**, a from-scratch clone of the early-2000s
 [Glitterboo](https://glitterboo.com) / Glitterfy / Picasion glitter tools. Two
 modes:
 
-- **Image / GIF:** drop in a picture or GIF; it finds the bright/high-contrast
-  spots, drops in animated sparkle sprites that match the local colour and size,
-  and (optionally) lays animated glitter over the photo.
+- **Image / GIF:** drop in a picture or GIF; it finds the bright/high-contrast spots, drops in animated sparkle sprites that match the local colour and size, and (optionally) lays animated glitter over the photo.
 - **Text:** type words (multi-line, with left/center/right align + line-spacing)
-  and get **animated glitter text** — letterforms filled with shimmering "dry
-  glitter" in 40 styles (rainbow, confetti, all-neon, unicorn, galaxy, fire, a
-  proper **red / black / yellow**, black-&-gold, oil-slick… plus
-  light-background and all-pink/all-blue/all-purple/all-green monochrome sets),
-  on a transparent background so you can paste it anywhere. Or **fill the letters
-  with your own uploaded image or GIF** — and an animated GIF's frame count
-  becomes the text's frame count (a 16-frame GIF → 16-frame text). Then pile on
-  reflective **finishes** — Holographic Menace, Oil-Slick, Liquid Chrome,
-  Dichroic Glass, CD-R Rainbow, Rhinestone Overdose, Lisa Frank Plasma, Opal
-  Fire, Sequins, Mother-of-Pearl, Soap Bubble, Wet Alien Jelly — and **stack
-  them** (Liquid Chrome + CD Diffraction + Holographic = a hostile reflective
-  life-form). Set line-spacing AND letter-spacing, flip on ALL CAPS, and add
-  **stackable outlines** — each its own solid colour, its own glitter (with its
-  own grain / density / strength, independent of the fill), its own uploaded
-  image/GIF, or its own reflective finish.
+  and get **animated glitter text**: letterforms filled with shimmering "dry glitter" in 40 styles (rainbow, confetti, all-neon, unicorn, galaxy, fire, a proper **red / black / yellow**, black-&-gold, oil-slick… plus light-background and all-pink/all-blue/all-purple/all-green monochrome sets),
+  on a transparent background so you can paste it anywhere. Or **fill the letters with your own uploaded image or GIF**, and an animated GIF's frame count becomes the text's frame count (a 16-frame GIF → 16-frame text). Then pile on reflective **finishes** (Holographic Menace, Oil-Slick, Liquid Chrome, Dichroic Glass, CD-R Rainbow, Rhinestone Overdose, Lisa Frank Plasma, Opal Fire, Sequins, Mother-of-Pearl, Soap Bubble, Wet Alien Jelly) and **stack them** (Liquid Chrome + CD Diffraction + Holographic = a hostile reflective life-form). Set line-spacing AND letter-spacing, flip on ALL CAPS, and add **stackable outlines**, each its own solid colour, its own glitter (with its own grain / density / strength, independent of the fill), its own uploaded image/GIF, or its own reflective finish.
 
 Everything exports as a **PNG**, **animated GIF**, or **video**.
 
-The app is built with TypeScript, Preact, and Vite. Image processing and exports
-run locally in the browser; no image uploads, accounts, or runtime services are
-needed. It works on a Chromebook and can work offline once loaded.
+Image processing and exports run locally in the browser; no image uploads, accounts, or runtime services are needed. It works on a Chromebook and can work offline once loaded.
 
 ---
 
-## Use it
+## Building
 
-**Locally:** install dependencies with `npm ci`, then run `npm run dev` and open
-the URL Vite prints. To create a production build, run `npm run build`.
+The app is built with TypeScript, Preact, and Vite. 
 
-**Online / on your phone:** publish to GitHub Pages (see below) and open the URL.
+**Locally:** install dependencies with `npm ci`, then run `npm run dev` and open the URL Vite prints. To create a production build, run `npm run build`.
 
-Then:
+## Usage
 
-1. **Open** an image or GIF (drag-and-drop, or click). Videos work too — see
-   *Video* below.
+1. **Open** an image or GIF (drag-and-drop, or click). Videos work too.
 2. Pick a look — **Classic Y2K** or **Astral Trash** — and hit **✨ Sparkle it**.
 3. Nudge the sliders until it's right.
 4. **Save** it as PNG, GIF, or Video. On a phone, long-press the result to save.
@@ -154,5 +135,4 @@ fonts/           bundled fonts and font styles
 vite.config.ts   Vite build configuration
 ```
 
-No third-party code — the GIF codec, detection, and rendering are all original.
-Do whatever you want with it. ✨
+No third-party code. ✨
