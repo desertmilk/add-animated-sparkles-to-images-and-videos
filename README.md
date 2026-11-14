@@ -1,8 +1,8 @@
-# [Sparkle Bitch](https://desertmilk.github.io/sparkle_bitch/) ✨
+# [Sparkle Bitch](https://desertmilk.github.io/add-animated-sparkles-to-images-and-videos/) ✨
 
 ✨**Convert**🖼️🐴🥱<img src=".github/workflows/example/stunning-hanoverian-horse-with-glossy-coat-under-sunlight.png" alt="Source PNG" width="240" height="240"> ➡️➡️✨ **to**➡️➡️ 🪄<img src=".github/workflows/example/stunning-hanoverian-horse-with-glossy-coat-under-sunlight.apng" alt="Converted sparkly PNG" width="240" height="240">💫👀💖✨🤯
 
-Try it here: https://desertmilk.github.io/sparkle_bitch/
+Try it here: https://desertmilk.github.io/add-animated-sparkles-to-images-and-videos/
 
 A personal **Y2K glitter engine**, a from-scratch clone of the early-2000s
 [Glitterboo](https://glitterboo.com) / Glitterfy / Picasion glitter tools. Two
