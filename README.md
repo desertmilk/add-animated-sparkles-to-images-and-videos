@@ -1,6 +1,8 @@
-# Sparkle Bitch ✨
+# [Sparkle Bitch](https://desertmilk.github.io/sparkle_bitch/) ✨
 
 ✨**Convert**🖼️🐴🥱<img src=".github/workflows/example/stunning-hanoverian-horse-with-glossy-coat-under-sunlight.png" alt="Source PNG" width="240" height="240"> ➡️➡️✨ **to**➡️➡️ 🪄<img src=".github/workflows/example/stunning-hanoverian-horse-with-glossy-coat-under-sunlight.apng" alt="Converted sparkly PNG" width="240" height="240">💫👀💖✨🤯
+
+https://desertmilk.github.io/sparkle_bitch/
 
 A personal **Y2K glitter engine**, a from-scratch clone of the early-2000s
 [Glitterboo](https://glitterboo.com) / Glitterfy / Picasion glitter tools. Two
@@ -123,17 +125,6 @@ mode click **＋ Load font file** and pick any `.ttf` / `.otf` / `.woff` you've
 downloaded — it loads instantly and shows up under **Your fonts**. It's
 **remembered across visits** (saved in your browser's IndexedDB; nothing is
 uploaded anywhere).
-
----
-
-## Publish to GitHub Pages
-
-A workflow is already included (`.github/workflows/pages.yml`). One-time setup:
-
-1. Push to the default branch (`main` or `master`).
-2. Repo **Settings → Pages → Source → "GitHub Actions"**.
-3. The workflow installs dependencies, builds the Vite site, and deploys `dist`;
-   your URL appears in the Actions run and on the Pages settings page.
 
 ---
 
